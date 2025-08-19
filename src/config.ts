@@ -25,7 +25,7 @@ skills: [
   "Power BI",
   "Git/GitHub",
   "Docker",
-  "Django
+  "Django",
 ],
 
   projects: [
