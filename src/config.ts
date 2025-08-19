@@ -9,42 +9,60 @@ export const siteConfig = {
     github: "https://github.com/Khushi-001",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  "I am a Computer Science Engineering graduate with hands-on experience in Data Science, Machine Learning, Backend Development, and Data Analytics. I have built projects like Heart Disease Prediction Model, Stock Market Prediction Web App, EDA on Google Play Store, and an AI-powered Diet Recommendation System. Skilled in Python, Flask, SQL, Power BI, and data visualization, I enjoy solving real-world problems by combining data-driven insights with software development. Currently exploring full-stack development and AI-powered applications.",
+
+skills: [
+  "Python",
+  "Pandas",
+  "NumPy",
+  "Scikit-learn",
+  "Flask",
+  "MySQL",
+  "MongoDB",
+  "JavaScript",
+  "HTML",
+  "CSS",
+  "Power BI",
+  "Git/GitHub",
+  "Docker",
+  "Django
+],
+
   projects: [
   {
     name: "NutriScan – Food Analyzer Web App",
     description:
       "Django-based web app integrated with OCR (Tesseract) to scan packaged food labels and analyze nutritional data. Provides health insights with emoji-based feedback, stores results in MongoDB, and deployed on Render for scalable access.",
     link: "https://github.com/yourusername/NutriScan", 
-    skills: ["Python", "Django", "Tesseract OCR", "MongoDB", "Render"],
+    skills: ["Python", "Django", "Tesseract OCR", "MongoDB", "HTML", "CSS", "Docker", "REST API"],
   },
   {
     name: "Stock Market Prediction Web App",
     description:
       "Flask-based web application that predicts stock trends using machine learning models. Integrated Pandas for historical data preprocessing, Scikit-learn for regression/classification models, and deployed the app with interactive visualizations.",
-    link: "https://github.com/yourusername/Stock-Market-Prediction", 
-    skills: ["Python", "Flask", "Scikit-learn", "Pandas", "Matplotlib"],
+    link: "https://github.com/Khushi-001/Stock-Market-Prediction-Web-App", 
+    skills: ["Python", "Flask", "Scikit-learn", "Pandas", "Matplotlib", "HTML", "CSS", "Docker", "REST API"],
   },
   {
     name: "Heart Disease Prediction ML Model",
     description:
       "Machine learning model trained on patient health data to predict heart disease likelihood with 86% accuracy. Implemented Logistic Regression and Random Forest, visualized results with Matplotlib, and documented the workflow in Jupyter Notebook.",
-    link: "https://github.com/yourusername/Heart-Disease-Prediction", 
+    link: "https://github.com/Khushi-001/Heart-Disease-Prediction-Project", 
     skills: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
   },
   {
     name: "AtliQ Hospitality Project",
     description:
-      "Developed a Power BI dashboard to analyze KPIs across 20+ hotel properties. Utilized MySQL for transformations, DAX for advanced calculations, and Excel for preprocessing to deliver insights into revenue, occupancy, and customer trends.",
-    link: "https://github.com/yourusername/AtliQ-Hospitality", 
+      "Designed an interactive dashboard in Power BI to visualize KPIs for 20+ hotel properties, reducing reporting time by 30%. Extracted and transformed large datasets using SQL and applied complex DAX queries for real-time performance monitoring. Enabled regional comparison of metrics like occupancy rate, average daily rate (ADR), and revenue per available room (RevPAR).
+",
+    link: "https://github.com/Khushi-001/Hospitality-Dashboard-Project", 
     skills: ["Power BI", "DAX", "Excel", "MySQL"],
   },
   {
     name: "EDA on Google Play Store Dataset",
     description:
       "Performed exploratory data analysis on Google Play Store dataset with Pandas and Matplotlib to uncover trends in app ratings, installs, categories, and monetization strategies. Delivered actionable insights through data visualization.",
-    link: "https://github.com/yourusername/EDA-Google-Playstore", 
+    link: "https://github.com/Khushi-001/EDA-on-Google-Playstore ", 
     skills: ["Python", "Pandas", "Matplotlib", "NumPy"],
   },
 ],
@@ -52,12 +70,15 @@ export const siteConfig = {
 experience: [
   {
     company: "UNO MINDA",
-    title: "Intern",
-    dateRange: "Jan 2025 - Feb 2025", 
+    title: "Python Developer Intern",
+    dateRange: "Jan 2025 - July 2025", 
     bullets: [
-      "Worked on data-driven analysis and reporting for manufacturing operations.",
-      "Assisted in automation of reporting workflows using Python and Excel.",
-      "Collaborated with engineering team to explore applications of data insights in process optimization.",
+      "Developed and maintained internal tools using Python, improving automation and team efficiency.",
+    "Built and debugged REST APIs for seamless data exchange between services.",
+"Applied object-oriented programming (OOP) principles to write clean, modular backend code.",
+"Used Git for version control and collaborated with cross-functional teams in Agile sprints.",
+"Gained practical exposure to the software development lifecycle, from coding to testing and deployment.",
+,
     ],
   },
   {
@@ -65,9 +86,11 @@ experience: [
     title: "Data Analyst Intern",
     dateRange: "Jun 2024 - Aug 2024",
     bullets: [
-      "Cleaned and maintained large datasets using Excel and Power BI, ensuring accuracy in reports.",
-      "Automated performance reports with Excel formulas and Power BI dashboards.",
-      "Collaborated with team members to analyze data trends and deliver business insights.",
+      "Designed and developed interactive dashboards using Microsoft Power BI, incorporating DAX functions to perform advanced calculations and visualize trends, resulting in improved stakeholder insights.",
+"Built a machine learning model for heart disease prediction using Python, involving data preprocessing steps like handling missing values, feature scaling, and encoding categorical variables.",
+"Evaluated model performance using metrics such as precision, recall, F1 score, and accuracy, achieving a balanced model with high predictive reliability.",
+"Collaborated with a team of analysts to present findings to stakeholders, translating complex data insights into actionable business strategies.",
+
     ],
   },
 ],
