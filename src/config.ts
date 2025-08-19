@@ -53,8 +53,7 @@ skills: [
   {
     name: "AtliQ Hospitality Project",
     description:
-      "Designed an interactive dashboard in Power BI to visualize KPIs for 20+ hotel properties, reducing reporting time by 30%. Extracted and transformed large datasets using SQL and applied complex DAX queries for real-time performance monitoring. Enabled regional comparison of metrics like occupancy rate, average daily rate (ADR), and revenue per available room (RevPAR).
-",
+      "Designed an interactive dashboard in Power BI to visualize KPIs for 20+ hotel properties, reducing reporting time by 30%. Extracted and transformed large datasets using SQL and applied complex DAX queries for real-time performance monitoring. Enabled regional comparison of metrics like occupancy rate, average daily rate (ADR), and revenue per available room (RevPAR).",
     link: "https://github.com/Khushi-001/Hospitality-Dashboard-Project", 
     skills: ["Power BI", "DAX", "Excel", "MySQL"],
   },
@@ -69,7 +68,7 @@ skills: [
 
 experience: [
   {
-    company: "UNO MINDA",
+    company: "Uno Minda",
     title: "Python Developer Intern",
     dateRange: "Jan 2025 - July 2025", 
     bullets: [
@@ -78,7 +77,7 @@ experience: [
 "Applied object-oriented programming (OOP) principles to write clean, modular backend code.",
 "Used Git for version control and collaborated with cross-functional teams in Agile sprints.",
 "Gained practical exposure to the software development lifecycle, from coding to testing and deployment.",
-,
+
     ],
   },
   {
