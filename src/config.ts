@@ -12,79 +12,72 @@ export const siteConfig = {
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
+  {
+    name: "NutriScan – Food Analyzer Web App",
+    description:
+      "Django-based web app integrated with OCR (Tesseract) to scan packaged food labels and analyze nutritional data. Provides health insights with emoji-based feedback, stores results in MongoDB, and deployed on Render for scalable access.",
+    link: "https://github.com/yourusername/NutriScan", 
+    skills: ["Python", "Django", "Tesseract OCR", "MongoDB", "Render"],
+  },
+  {
+    name: "Stock Market Prediction Web App",
+    description:
+      "Flask-based web application that predicts stock trends using machine learning models. Integrated Pandas for historical data preprocessing, Scikit-learn for regression/classification models, and deployed the app with interactive visualizations.",
+    link: "https://github.com/yourusername/Stock-Market-Prediction", 
+    skills: ["Python", "Flask", "Scikit-learn", "Pandas", "Matplotlib"],
+  },
+  {
+    name: "Heart Disease Prediction ML Model",
+    description:
+      "Machine learning model trained on patient health data to predict heart disease likelihood with 86% accuracy. Implemented Logistic Regression and Random Forest, visualized results with Matplotlib, and documented the workflow in Jupyter Notebook.",
+    link: "https://github.com/yourusername/Heart-Disease-Prediction", 
+    skills: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib"],
+  },
+  {
+    name: "AtliQ Hospitality Project",
+    description:
+      "Developed a Power BI dashboard to analyze KPIs across 20+ hotel properties. Utilized MySQL for transformations, DAX for advanced calculations, and Excel for preprocessing to deliver insights into revenue, occupancy, and customer trends.",
+    link: "https://github.com/yourusername/AtliQ-Hospitality", 
+    skills: ["Power BI", "DAX", "Excel", "MySQL"],
+  },
+  {
+    name: "EDA on Google Play Store Dataset",
+    description:
+      "Performed exploratory data analysis on Google Play Store dataset with Pandas and Matplotlib to uncover trends in app ratings, installs, categories, and monetization strategies. Delivered actionable insights through data visualization.",
+    link: "https://github.com/yourusername/EDA-Google-Playstore", 
+    skills: ["Python", "Pandas", "Matplotlib", "NumPy"],
+  },
+],
+
+experience: [
+  {
+    company: "UNO MINDA",
+    title: "Intern",
+    dateRange: "Jan 2025 - Feb 2025", 
+    bullets: [
+      "Worked on data-driven analysis and reporting for manufacturing operations.",
+      "Assisted in automation of reporting workflows using Python and Excel.",
+      "Collaborated with engineering team to explore applications of data insights in process optimization.",
+    ],
+  },
+  {
+    company: "Unified Mentors Pvt Ltd",
+    title: "Data Analyst Intern",
+    dateRange: "Jun 2024 - Aug 2024",
+    bullets: [
+      "Cleaned and maintained large datasets using Excel and Power BI, ensuring accuracy in reports.",
+      "Automated performance reports with Excel formulas and Power BI dashboards.",
+      "Collaborated with team members to analyze data trends and deliver business insights.",
+    ],
+  },
+],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "University Institute Of Engineering And Technology",
+      degree: "Bachelor of Technology in Computer Science Engineering (CSE)",
+      dateRange: "2021 - 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Maintained 8.3 GPA throughout semesters",
       ],
     },
   ],
